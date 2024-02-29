@@ -1,0 +1,116 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 340px;
+  max-width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container {
+  position: relative;
+  width: 291.41px;
+  height: 535px;
+  background-image: url("./icones/fundo.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  opacity: 0; 
+  animation: fadeIn 1s forwards; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.text {
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.title {
+  font-size: 26px;
+  color: #000000;
+  animation: slideInText 1s ease forwards;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #333333;
+  opacity: 0;
+  animation: slideInText 1s ease forwards;
+  animation-delay: 0.5s; /* Delay para o subtítulo começar a animação após o título */
+}
+
+@keyframes slideInText {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.img img {
+  width: 145px;
+  height: 140px;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  transition: transform 0.3s ease; 
+  cursor: pointer;
+}
+
+.img img:hover {
+  transform: scale(1.1); 
+}
+.link {
+    display: flex; 
+    align-items: center;
+    text-decoration: none; 
+    color: black; 
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: transform 0.3s ease; 
+}
+
+.link:hover {
+  transform: translateY(-3px); /* Move ligeiramente para cima no hover */
+}
+
+
+.link img {
+    width: 22px; 
+    margin-right: 7px; 
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.7);
+    border-radius: 100px;
+}
+
+.text_a {
+    font-size: 20px; 
+}
+
+p {
+  font-size: 10px;
+  margin-bottom: 22px;
+}
