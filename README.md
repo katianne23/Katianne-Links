@@ -4,7 +4,7 @@
 
 > 💻 Links para redes sociais criada com CSS.
 
-[Clique aqui para acessar](https://katianne23.github.io/Merry-Christmas-2023/)
+[Clique aqui para acessar](https://katianne-links.vercel.app/)
 
 ## Tecnologias ⚙️
 
