@@ -9,59 +9,127 @@
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
+    <!-- PERFIL -->
     <section class="container">
+            <img class="img-perfil" src="./assets/icones/img-perfil.jpg" alt="Katianne Araujo">
         <div class="text">
-            <span class="title">Katianne Araújo</span>
-            <span class="subtitle">Frontend Developer</span>
+            <h1 class="title">Katianne Araújo</h1>
+            <p class="subtitle">Frontend Developer</p>
         </div>
-        <div class="img">
-            <img src="./assets/icones/foto.png" alt="Katianne Araujo">
-        </div>
-        <div class="links">
-            <a class="link" href="https://website-katianne.vercel.app/" target="_blank">
-                <img src="./assets/icones/internet.svg" alt="website">
-                <span class="text_a">Website-Katianne</span>
+
+        <!-- TECNOLOGIAS -->
+         <section class="tecnologias">
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icon-react.png" alt="React"></div>
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icon-vue-js.png" alt="VUE.JS"></div>
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icon-javascript.png" alt="JavaScript"></div>
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icons-typescript.png" alt="TypeScript"></div>
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icon-nestjs.png" alt="Nest.js"></div>
+             <div class="tecnologia"><img src="assets/icones/tecnologias/icon-postgresql.png" alt="PostgreSQL"></div>
+        </section>
+
+       <div class="title-links">
+        <div class="linha"></div>
+        <p class="p links">LINKS</p>
+        <div class="linha"></div>
+       </div>
+
+       <!-- LINKS -->
+        <section class="links">
+            <a href="https://website-katianne.vercel.app/" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-solid fa-globe"></i>
+                    <div class="column">
+                        <h1 class="title-link">Portfólio</h1>
+                        <p class="p-link">https://website-katianne.vercel.app/</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://github.com/katianne23" target="_blank">
-                <img src="./assets/icones/github_git.svg" alt="website">
-                <span class="text_a">Katianne23</span>
+            <a href="https://github.com/katianne23" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-github"></i>
+                    <div class="column">
+                        <h1 class="title-link">GitHub</h1>
+                        <p class="p-link">katianne23</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://www.linkedin.com/in/katiannearaujo" target="_blank">
-                <img src="./assets/icones/linkedin.svg" alt="website">
-                <span class="text_a">katianne Araújo</span>
+            <a href="https://www.linkedin.com/in/katiannearaujo" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-linkedin-in"></i>
+                    <div class="column">
+                        <h1 class="title-link">LinkedIn</h1>
+                        <p class="p-link">katiannearaujo</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="mailto:katianne40@gmail.com" target="_blank">
-                <img src="./assets/icones/emailgmail.svg" alt="website">
-                <span class="text_a">Katianne40</span>
+            <a href="mailto:katianne40@gmail.com" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-solid fa-envelope"></i>
+                    <div class="column">
+                        <h1 class="title-link">E-mail</h1>
+                        <p class="p-link">katianne40@gmail.com</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://discord.gg/eqpRrw4N" target="_blank">
-                <img src="./assets/icones/discord_icon.svg" alt="website">
-                <span class="text_a">katianne.araujo</span>
+            <a href="https://discord.gg/eqpRrw4N" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-discord"></i>
+                    <div class="column">
+                        <h1 class="title-link">Discord</h1>
+                        <p class="p-link">katianne.araujo</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://api.whatsapp.com/send?phone=5588981118927" target="_blank">
-                <img src="./assets/icones/whatsapp.svg" alt="website">
-                <span class="text_a">+5588981118927</span>
+            <a href="https://api.whatsapp.com/send?phone=5588981118927" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-whatsapp"></i>
+                    <div class="column">
+                        <h1 class="title-link">WhatsApp</h1>
+                        <p class="p-link">(88) 9 8111-8927<p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://www.instagram.com/katianne.araujo/" target="_blank">
-                <img src="./assets/icones/instagram.png" alt="website">
-                <span class="text_a">katianne.araujo</span>
+            <a href="https://www.instagram.com/katianne.araujo/" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-instagram"></i>
+                    <div class="column">
+                        <h1 class="title-link">Instagram</h1>
+                        <p class="p-link">@katianne.araujo</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
 
-            <a class="link" href="https://t.me/Katiannearaujo" target="_blank">
-                <img src="./assets/icones/telegram.svg" alt="website">
-                <span class="text_a">katiannearaujo</span>
+            <a href="https://t.me/Katiannearaujo" target="_blank" class="link">
+                <div class="link-row">
+                    <i class="icon-link fa-brands fa-telegram"></i>
+                    <div class="column">
+                        <h1 class="title-link">telegram</h1>
+                        <p class="p-link">@Katiannearaujo</p>
+                    </div>
+                </div>
+                <i class="seta fa-solid fa-arrow-right"></i>
             </a>
-        </div>
+        </section>
+
+        
         <div class="footer">
             <p>Katianne Araújo. © 2024 Todos os direitos reservados</p>
         </div>
